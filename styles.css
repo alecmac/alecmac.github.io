@@ -18,6 +18,9 @@ body {
     padding: 2rem;
     text-align: center;
 }
+.bio {
+    text-align:left;
+}
 
 h1, h2 {
     margin-bottom: 1rem;
@@ -56,10 +59,18 @@ main {
 }
 
 /* Socials links styles */
+
+.social {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
 .social-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .social-button {
